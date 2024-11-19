@@ -93,6 +93,7 @@ section.topo-do-site .flex{
     max-width: 100%;
     height: auto;
 }
+
 @keyframes flutuar{
     0%{
         top:0;
@@ -133,6 +134,28 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
+#especialidade-texto {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    animation: deslizarCor 10s linear infinite;
+}
+
+@keyframes deslizarCor {
+    0% {
+        transform: translateX(100%);
+        color: #ff6347; /* Cor inicial */
+    }
+    50% {
+        color: #4682b4; /* Cor intermediária */
+    }
+    100% {
+        transform: translateX(-100%);
+        color: #8d1866; /* Cor final */
+    }
+}
+
 section.sobre{
     padding: 40px 4%;
 }
