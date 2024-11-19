@@ -137,9 +137,9 @@ section.sobre{
     padding: 40px 4%;
 }
 
-section.sobre .flex{
-    align-items: center;
-    gap: 60px;
+section.Sobre .flex{
+    align-items: center; 
+    gap: 60px; 
 }
 .Sobre .txt-sobre{
     color: #fff;
