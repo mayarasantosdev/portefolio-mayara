@@ -148,7 +148,7 @@ section.especialidades .flex{
         color: #ff6347; /* Cor inicial */
     }
     50% {
-        color: #4682b4; /* Cor intermediária */
+        color: #d679ce; /* Cor intermediária */
     }
     100% {
         transform: translateX(-100%);
